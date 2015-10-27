@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  DCXXSystem
+//
+//  Created by teddy on 15/7/30.
+//  Copyright (c) 2015年 teddy. All rights reserved.
+//
+
+#ifndef DCXXSystem_PrefixHeader_pch
+#define DCXXSystem_PrefixHeader_pch
+
+#define URL @"http://115.236.2.245:38019/datadc.ashx"
+
+//#define kScreen_Width [[UIScreen mainScreen] bounds].size.width
+//#define kScreen_height [[UIScreen mainScreen] bounds].size.height
+
+#define kScreen_Width [[UIScreen mainScreen] bounds].size.width
+#define kScreen_height [[UIScreen mainScreen] bounds].size.height
+
+//用户名
+#define  USERNAME @"user"
+
+#define BG_COLOR [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0]
+#define Font_BGCOLOR [UIColor colorWithRed:20/255.0 green:42/255.0 blue:72/255.0 alpha:1.0]
+
+#define kWidth 100
+#define kHeight 40
+#define kWidthMargin 1
+#define kHeightMargin 3
+
+#endif
