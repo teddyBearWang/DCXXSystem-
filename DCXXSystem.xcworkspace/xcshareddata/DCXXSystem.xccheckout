@@ -12,20 +12,24 @@
 	<dict>
 		<key>7789F3D7AC0034AD366E5DAFF270869F8AA66A1B</key>
 		<string>https://github.com/teddyBearWang/DCXXSystem.git</string>
+		<key>807F03DBBC8062BCE5B893D0F2E6064AFEA40763</key>
+		<string>https://github.com/teddyBearWang/DCXXSystem-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DCXXSystem.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7789F3D7AC0034AD366E5DAFF270869F8AA66A1B</key>
+		<string>../../DCXXSystem</string>
+		<key>807F03DBBC8062BCE5B893D0F2E6064AFEA40763</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/teddyBearWang/DCXXSystem.git</string>
+	<string>https://github.com/teddyBearWang/DCXXSystem-.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7789F3D7AC0034AD366E5DAFF270869F8AA66A1B</string>
+	<string>807F03DBBC8062BCE5B893D0F2E6064AFEA40763</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>7789F3D7AC0034AD366E5DAFF270869F8AA66A1B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DCXXSystem</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>807F03DBBC8062BCE5B893D0F2E6064AFEA40763</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DCXXSystem-master</string>
 		</dict>
 	</array>
 </dict>

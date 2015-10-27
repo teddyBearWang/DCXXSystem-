@@ -180,7 +180,8 @@
 {
     _selectSection = (int)btn.tag;//选择的section
     NSString *message = nil;
-    if ([btn.currentTitle isEqualToString:@"赞成"]) {
+    NSLog(@"%@",btn.currentTitle);
+    if ([btn.currentTitle hasPrefix:@"赞成"]) {
         //点击了赞成按钮
         NSLog(@"赞同");
         _selectItem = @"1";
