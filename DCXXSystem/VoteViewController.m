@@ -89,17 +89,21 @@
                 if ([[list[0] objectForKey:@"success"] isEqualToString:@"true"]) {
                     //成功
                     NSDictionary *dict = _list[_selectSection];
-                    [dict setValue:@"1" forKey:@"VoteRes"];
+                    
                     if ([_selectItem isEqualToString:@"1"]) {
                         //点击了赞同按钮
                         int count = [[dict objectForKey:@"OkCount"] intValue];
                         count = count + 1;//自动加1
                         [dict setValue:[NSString stringWithFormat:@"%d",count] forKey:@"OkCount"];
+                        //状态标签:已投票(赞同)
+                        [dict setValue:@"1" forKey:@"VoteRes"];
                     }else{
                         //点击了取消按钮
                         int count = [[dict objectForKey:@"NoOkCount"] intValue];
                         count = count + 1;//自动加1
                         [dict setValue:[NSString stringWithFormat:@"%d",count] forKey:@"NoOkCount"];
+                        //状态标签:已投票(反对)
+                        [dict setValue:@"2" forKey:@"VoteRes"];
                     }
                 }
                 [self.voteTable reloadData];

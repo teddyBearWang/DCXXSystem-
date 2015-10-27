@@ -53,7 +53,12 @@
     if ([[dict objectForKey:@"VoteRes"] isEqualToString:@"0"]) {
         self.stateLabel.text = @"未投票";
     }else{
-        self.stateLabel.text = @"已投票";
+        if([[dict objectForKey:@"VoteRes"] isEqualToString:@"1"])
+        {
+            self.stateLabel.text = @"已投票(赞同)";
+        }else{
+             self.stateLabel.text = @"已投票(反对)";
+        }
         self.approvalBtn.userInteractionEnabled = NO;
         [self.approvalBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
         self.aginstBtn.userInteractionEnabled = NO;

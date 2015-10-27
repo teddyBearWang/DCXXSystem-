@@ -230,7 +230,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="即将发起的投票内容" translatesAutoresizingMaskIntoConstraints="NO" id="Lf4-zK-bkp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lf4-zK-bkp">
                                 <rect key="frame" x="0.0" y="66" width="320" height="193"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="193" id="uNg-gN-5ah"/>

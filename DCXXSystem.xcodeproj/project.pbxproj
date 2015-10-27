@@ -52,8 +52,6 @@
 		9F428D1C1B9D2A8E005097C3 /* video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F428D1B1B9D2A8E005097C3 /* video@3x.png */; };
 		9F434D1E1BCF3BA500A6A60F /* VoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F434D1D1BCF3BA500A6A60F /* VoteCell.xib */; };
 		9F434D211BCF3E5900A6A60F /* VoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F434D201BCF3E5900A6A60F /* VoteCell.m */; };
-		9F434D231BCF7BD500A6A60F /* VoteCount.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F434D221BCF7BD500A6A60F /* VoteCount.xib */; };
-		9F434D261BCF7E0500A6A60F /* VoteCountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F434D251BCF7E0500A6A60F /* VoteCountCell.m */; };
 		9F434D281BCF87E400A6A60F /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F434D271BCF87E400A6A60F /* close@3x.png */; };
 		9F434D2A1BCF87E900A6A60F /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F434D291BCF87E900A6A60F /* close@2x.png */; };
 		9F434D2C1BCF87EF00A6A60F /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F434D2B1BCF87EF00A6A60F /* close.png */; };
@@ -177,9 +175,6 @@
 		9F434D1D1BCF3BA500A6A60F /* VoteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoteCell.xib; sourceTree = "<group>"; };
 		9F434D1F1BCF3E5900A6A60F /* VoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteCell.h; sourceTree = "<group>"; };
 		9F434D201BCF3E5900A6A60F /* VoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteCell.m; sourceTree = "<group>"; };
-		9F434D221BCF7BD500A6A60F /* VoteCount.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoteCount.xib; sourceTree = "<group>"; };
-		9F434D241BCF7E0500A6A60F /* VoteCountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteCountCell.h; sourceTree = "<group>"; };
-		9F434D251BCF7E0500A6A60F /* VoteCountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteCountCell.m; sourceTree = "<group>"; };
 		9F434D271BCF87E400A6A60F /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
 		9F434D291BCF87E900A6A60F /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		9F434D2B1BCF87EF00A6A60F /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
@@ -494,9 +489,6 @@
 				9F434D1D1BCF3BA500A6A60F /* VoteCell.xib */,
 				9F434D1F1BCF3E5900A6A60F /* VoteCell.h */,
 				9F434D201BCF3E5900A6A60F /* VoteCell.m */,
-				9F434D221BCF7BD500A6A60F /* VoteCount.xib */,
-				9F434D241BCF7E0500A6A60F /* VoteCountCell.h */,
-				9F434D251BCF7E0500A6A60F /* VoteCountCell.m */,
 			);
 			name = customCell;
 			sourceTree = "<group>";
@@ -701,7 +693,6 @@
 				9F3725B61B7C76E5000E9E13 /* MeetingCell.xib in Resources */,
 				9FD16D0D1BBB87B20004F7FA /* vote.png in Resources */,
 				9F434D2A1BCF87E900A6A60F /* close@2x.png in Resources */,
-				9F434D231BCF7BD500A6A60F /* VoteCount.xib in Resources */,
 				9F5ED0031B6B06380062BAAF /* user@2x.png in Resources */,
 				9F428D1A1B9D2A85005097C3 /* video@2x.png in Resources */,
 				9F434D281BCF87E400A6A60F /* close@3x.png in Resources */,
@@ -793,7 +784,6 @@
 				9F5ECFFF1B6B00820062BAAF /* ResturantCell.m in Sources */,
 				9F32EB1F1B8D91CD00D0B75E /* LIstViewController.m in Sources */,
 				9F37259D1B7C2744000E9E13 /* PersonDetailController.m in Sources */,
-				9F434D261BCF7E0500A6A60F /* VoteCountCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
