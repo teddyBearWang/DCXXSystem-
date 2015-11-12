@@ -126,10 +126,26 @@
 - (IBAction)comfirmOrderAction:(id)sender
 {
     NSDictionary *user = [self getUser];
-    NSString *result = [NSString stringWithFormat:@"%@$%@",[user objectForKey:@"Sid"],self.restaurantId];
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    NSString *vendor = nil;
+    NSLog(@"得到的数据是:%@",[userDefault objectForKey:@"DeviceVendor"]);
+    if ([userDefault objectForKey:@"DeviceVendor"] == nil ) {
+        [self getIdentifierVendor];
+    }
+    vendor = [userDefault objectForKey:@"DeviceVendor"];
+    NSString *result = [NSString stringWithFormat:@"%@$%@$%@",[user objectForKey:@"Sid"],self.restaurantId,vendor];
     
     [self getWeb:result withType:@"IntBooking"];
   
+}
+
+//获取设备的vendor码,同步在本地å
+- (void)getIdentifierVendor
+{
+    NSString *vendor = [[UIDevice currentDevice].identifierForVendor UUIDString];
+    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+    [user setValue:vendor forKey:@"DeviceVendor"];
+    [user synchronize];
 }
 
 //取消订餐
